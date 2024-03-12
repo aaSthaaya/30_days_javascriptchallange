@@ -1,4 +1,4 @@
-console.log("Helooo World");
+console.log("Hello World");
 
 function factorial(n) {
     if (n === 0 || n === 1) {
