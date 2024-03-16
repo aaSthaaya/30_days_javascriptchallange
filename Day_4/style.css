@@ -1,5 +1,63 @@
-* {
+/* Variables */
+/* Base styles */
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #222222;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+footer {
+  margin-top: 140px;
+  background-color: #222222;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
