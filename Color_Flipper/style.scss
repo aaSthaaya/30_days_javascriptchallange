@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#colorFlipper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
