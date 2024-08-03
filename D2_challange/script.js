@@ -1,6 +1,14 @@
-console.log("Day_2");
-console.log("Operators");
-//Task1: 
-//Task2:
-//Task3:
-//Task4:
+console.log("Day_2 Operators");
+
+//Activity 1: Arithmetic Operations
+
+//Task 1: Write a program to add two numbers and log the result to console.
+
+let a = 2;
+let b = 3;
+const c = a + b;
+console.log(c);
+
+let x = 6 - 8;
+document.getElementById('demo').innerHTML = x;
+window.alert("Welcome and have a glare.");
