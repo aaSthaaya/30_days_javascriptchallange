@@ -56,5 +56,55 @@ let w = 738345;
 w -= 732542;
 console.log(w);
 
+//Activity 3: Comparision Operator
+
+//Task 8: Write a program to compare two numbers using > and < and log the result to the console.
+
+let d = 45;
+let e = 65;
+let f = d > e;
+console.log(f);
+
+let g = 67;
+let h = 68;
+let l = g < h;
+console.log(l);
+
+//Task 9: Write a program to compare two numbers using >= and <= and log the result to the console.
+
+let num6 = 55;
+let num7 = 25;
+let tot = num6 >= num7;
+console.log(tot);
+
+let num8 = 22;
+let num9 = 22;
+let ans = num8 <= num9;
+console.log(ans);
+
+//Task 10: Write a program to compare two numbers using == and === and log the result to the console.
+//Rough
+// let o = 30840;
+// o == 6474;
+// console.log(o);
+
+let number1 = 10;
+let number2 = '10';
+
+//Using == operator
+
+if (number1 == number2) {
+    console.log(`${number1} == ${number2} is true.`);
+} else {
+    console.log(`${number1} == ${number2} is false.`);
+}
+
+//Using === operator
+
+if (number1 === number2) {
+    console.log(`${number1} === ${number2} is true.`);
+} else {
+    console.log(`${number1} === ${number2} is false.`);
+}
 
 
