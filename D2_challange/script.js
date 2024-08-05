@@ -11,7 +11,7 @@ console.log(c);
 //
 let x = 6 - 8;
 document.getElementById('demo').innerHTML = x;
-window.alert("Welcome and have a glare.");
+// window.alert("Welcome and have a glare.");
 
 //Task 2: Write a program to subtract two numbers and log the result to the console.
 
@@ -107,4 +107,41 @@ if (number1 === number2) {
     console.log(`${number1} === ${number2} is false.`);
 }
 
+//Activity 4: Logical Operators
 
+//Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
+
+let condition1 = false;
+let condition2 = true;
+
+let result = condition1 && condition2;
+console.log(`The final output is ${result}.`);
+
+//Task 12: Write a program that uses the || operator to combine two conditions and log the result to the console.
+
+let condition3 = true;
+let condition4 = false;
+
+let output = condition3 || condition4;
+console.log(`The output is ${output}.`);
+
+//Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
+
+let condition5 = false;
+
+let resultant = !condition5;
+console.log(resultant);
+
+//Activity 5: Ternary Operator
+
+// Task 14: Write a program that uses a ternary operator to check if a number is positive or negative and log the result to the console.
+
+
+let value = 77;
+let res = (value >= 0) ? "Positive" : "Negative";
+console.log(`The outcome is ${res}.`);
+
+//
+let age = 18;
+let ageThatCanVote = (age >= 18) ? "Can Vote!" : "Cannot Vote!";
+console.log(`This person ${ageThatCanVote}`);
