@@ -145,3 +145,110 @@ console.log(`The outcome is ${res}.`);
 let age = 18;
 let ageThatCanVote = (age >= 18) ? "Can Vote!" : "Cannot Vote!";
 console.log(`This person ${ageThatCanVote}`);
+
+//Feature Request:
+
+//1.Arithmetic Operations Script: Write a script that performs basic arithmetic operations(addition, subtraction, multiplications, Division, Remainder) on two numbers and log the results.
+
+let numberx = 340;
+let numbery = 134;
+
+//Additon
+const addition = numberx + numbery;
+//Subtraction
+const subtraction = numbery - numberx;
+//Multiplication
+const multiplication = numberx * numbery;
+//Division
+const division = numberx / numbery;
+//Remainder
+const remain = numberx % numbery;
+
+//Outputs:
+
+console.log(`The output is ${addition}.`);
+console.log(`The output is ${subtraction}.`);
+console.log(`The output is ${multiplication}.`);
+console.log(`The output is ${division}.`);
+console.log(`The output is ${remain}.`);
+
+//2. Comparision and Logical Operators Script: Create a script that compares two numbers using different comparision operators and combines conditions using logical operators, logging the results.
+
+// let numbers = 6000;
+// let numbert = '6000';
+// let numberu = 7000;
+// Comparision script
+
+// if (numbers == numbert) {
+//     console.log("The numbers are equal.")
+// } else {
+//     console.log("The numbers are not equal.")
+// };
+// if (numbers === numbert) {
+//     console.log("The numbers are equal in value and type.")
+// } else {
+//     console.log("The numbers are not equal.")
+// };
+// if (numbers < numberu) {
+//     console.log("True")
+// } else {
+//     console.log("False")
+// };
+// if (numbers > numberu) {
+//     console.log("True")
+// } else {
+//     console.log("False")
+// };
+// if (numbers <= numbert) {
+//     console.log("True")
+// } else {
+//     console.log("False")
+// };
+// if (numbers >= numbert) {
+//     console.log("True")
+// } else {
+//     console.log("False")
+// };
+
+//Again
+
+let numa = 33;
+let numb = 44;
+
+//Comparision Operator
+
+console.log("Comparision Operator");
+console.log(`numa == numb: ${numa == numb}`);
+console.log(`numa != numb: ${numa != numb}`);
+console.log(`numa === numb: ${numa === numb}`);
+console.log(`numa !== numb: ${numa !== numb}`);
+console.log(`numa < numb: ${numa < numb}`);
+console.log(`numa > numb: ${numa > numb}`);
+console.log(`numa <= numb: ${numa <= numb}`);
+console.log(`numa >= numb: ${numa >= numb}`);
+
+//Logical Operator
+
+console.log("Logical Operator");
+console.log(`numa<numb && numa>22: ${numa < numb && numa > 22}`);
+console.log(`numa<numb || numa>numb: ${numa < numb || numa > numb}`);
+console.log(`!(numa===numb): ${!(numa === numb)}`);
+
+//Combined conditions using Comparision Operator and Logical Operator.
+
+console.log("Combined Conditions")
+console.log(`numa<numb && numb>17: ${numa < numb && numa > 17}`);
+console.log(`numa==33 || numb==99: ${numa == 33 || numb == 99}`);
+console.log(`!(numa>numb) && (numa<=numb): ${!(numa > numb) && (numa <= numb)}`);
+
+
+//
+var element = document.querySelector('.example');
+console.log(element.textContent);
+
+//3. Ternary Operator Script: Write a script that uses the ternary operator to determine if a number is positive or negative and log the result.
+
+let number = -40;
+
+let newNumber = (number >= 0) ? "The number is positive." : "The number is negative.";
+console.log(newNumber);
