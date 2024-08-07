@@ -112,3 +112,15 @@ switch (true) {
 
 //Activity 4: Conditional(Ternary) Operator
 
+//Task 6: Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console.
+
+const num4 = 33;
+
+const checkNumber = (num4 % 2 == 0) ? "Even Number" : "Odd Number";
+console.log(checkNumber);
+
+
+//Activity 5: Combining conditions
+
+//Task 7: Write a program to check if a year is leap year using multiple consitions(divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
+
