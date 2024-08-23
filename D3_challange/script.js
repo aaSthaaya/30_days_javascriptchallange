@@ -5,7 +5,7 @@ console.log("Control Structure");
 
 //Task1: Write a program to check if a number is positive, negative or zero and log the result to the console.
 
-num = 0;
+let num = 0;
 
 if (num > 0) {
     console.log("The number is positive.")
@@ -122,5 +122,17 @@ console.log(checkNumber);
 
 //Activity 5: Combining conditions
 
-//Task 7: Write a program to check if a year is leap year using multiple consitions(divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
+//Task 7: Write a program to check if a year is leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
 
+function isLeapYear(year){
+if (year % 400 === 0) {
+    console.log(`${year} is a leap year.`);
+} else if (year % 100 === 0) {
+    console.log(`${year} is not a leap year.`);
+} else if (year % 4 === 0) {
+    console.log(`${year} is a leap year.`);
+} else {
+    console.log(`${year} is not a leap year.`);
+}
+}
+isLeapYear(2024);
